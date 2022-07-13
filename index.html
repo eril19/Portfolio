@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="./style.css" />
+     <!-- unicon -->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <!-- boxicons -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav-logo">Eril</a>
+
+        <div class="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link active-link">
+                <i class="bx bxs-home"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#about" class="nav-link">
+                <i class="bx bxs-user"></i>
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="#qualification" class="nav-link">
+                <i class='bx bxs-graduation' ></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">
+                <i class="bx bxs-book"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">
+                <i class="bx bxs-message-square-detail"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Theme change button -->
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home-container container grid">
+          <div class="home-data">
+            <span class="home-greeting"> Hello There! I'm </span>
+            <h1 class="home-name">Muhammad Eril Fario</h1>
+            <h3 class="home-education">Student</h3>
+
+            <div class="home-buttons">
+              <a download="" href="./CV.pdf" class="button button--ghost"> Download CV </a>
+
+              <!-- <a download="" href="./MUHAMMAD ERIL FARIO - CV (1).pdf" class="button button--ghost">
+                  Download CV (Binus' Transcript)
+                </a> -->
+              <a href="#about" class="button">About Me</a>
+            </div>
+          </div>
+
+          <div class="home-handle">
+            <img src="./20211125_153644-removebg-preview.png" alt="" class="home-img" />
+          </div>
+
+          <div class="home-social">
+            <a href="" class="home-social-link">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="" class="home-social-link">
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="" class="home-social-link">
+              <i class="bx bxl-dribbble"></i>
+            </a>
+          </div>
+
+          <a href="#about" class="home-scroll">
+            <i class="bx bx-mouse home-scroll-icon"></i>
+            <span class="home-scroll-name">Scroll Down</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <span class="section-subtitle">My Introduction</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="about-container container grid">
+          <img src="./WhatsApp Image 2022-07-08 at 17.05.09.jpeg" alt="" class="about-img" />
+          <div class="about-data">
+            <div class="about-info">
+              <div class="about-box">
+                <i class="bx bxs-award about-icon"></i>
+                <h3 class="about-title">Experience</h3>
+                <span class="about-subtitle">4 Years working</span>
+              </div>
+
+              <div class="about-box">
+                <i class="bx bx-briefcase about-icon"></i>
+                <h3 class="about-title">Completed</h3>
+                <span class="about-subtitle">20+ Projects</span>
+              </div>
+
+              <div class="about-box">
+                <i class="bx bx-support about-icon"></i>
+                <h3 class="about-title">Support</h3>
+                <span class="about-subtitle">Online 24/7</span>
+              </div>
+            </div>
+
+            <p class="about-desc">
+              I am currently an undergraduate student at Bina Nusantara University majoring in Computer Science and have chosen Mobile Programming and Software Engineering as my minor. I am eager to learn something new and gain experience
+              in order to broaden and improve my knowledge. I want to be a developer whose skills extend beyond programming in the hope of helping, contributing, and being a useful member of society.
+            </p>
+            <a download="" href="./CV.pdf" class="button"> Download CV </a>
+
+            <a download="" href="./MUHAMMAD ERIL FARIO - CV (1).pdf" class="button">
+                Download CV (Binus' Transcript)
+              </a>
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+        </div>
+      </section>
+      
+      <section class="qualification section" id="qualification">
+        <span class="section-subtitle">My personal experience</span>
+        <h2 class="section-title">My qualification</h2>
+
+        <div class="qualification-container container">
+          <div class="qualification-tabs">
+            <div class="qualification-button button--flex qualification-active" data-target="#education">
+              <i class='bx bxs-graduation' ></i>
+              Education
+            </div>
+            <div class="qualification-button button--flex" data-target="#work">
+              <i class='bx bx-briefcase' ></i>
+              Experiences
+            </div>
+          </div>
+
+          <!-- qualification content -->
+          <div class="qualification-sections">
+            <!-- education -->
+            <div class="qualification-content qualification-active" data-content id="education">
+              <!-- data 1 -->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Student</h3>
+                  <span class="qualification-subtitle">SDIT Al-Iman</span>
+                  <div class="qualification-calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2006 - 2013
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification-rounder"></span>
+                  <span class="qualification-line"></span>
+                </div>
+              </div>
+              <!-- data 2 -->
+              <div class="qualification-data">
+                <div></div>
+
+                <div>
+                  <span class="qualification-rounder"></span>
+                  <span class="qualification-line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification-title">Student</h3>
+                  <span class="qualification-subtitle">SMPN 52 Jakarta</span>
+                  <div class="qualification-calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2013 - 2016
+                  </div>
+                </div>
+              </div>
+              <!-- data 3 -->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Student</h3>
+                  <span class="qualification-subtitle">SMAN 61 Jakarta</span>
+                  <div class="qualification-calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2016 - 2019
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification-rounder"></span>
+                  <span class="qualification-line"></span>
+                </div>
+              </div>
+              <!-- data 4 -->
+              <div class="qualification-data">
+                <div></div>
+
+                <div>
+                  <span class="qualification-rounder"></span>
+                  <!-- <span class="qualification-line"></span> -->
+                </div>
+                <div>
+                  <h3 class="qualification-title">Computer Science</h3>
+                  <span class="qualification-subtitle">BINUS University (Current GPA: 3,65)</span>
+                  <div class="qualification-calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2019 - 2023 (Expected)
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- work -->
+            <div class="qualification-content" data-content id="work">
+              <!-- data 1 -->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Indonesia National Contest 2020</h3>
+                  <span class="qualification-subtitle">ICPC Foundation</span>
+                  <div class="qualification-calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    28 Nov 2020 - 29 Nov 2020
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification-rounder"></span>
+                  <span class="qualification-line"></span>
+                </div>
+              </div>
+              <!-- data 2 -->
+              <div class="qualification-data">
+                <div></div>
+
+                <div>
+                  <span class="qualification-rounder"></span>
+                  <span class="qualification-line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification-title">Music Transcript</h3>
+                  <span class="qualification-subtitle">SJNG Group</span>
+                  <div class="qualification-calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2020 - 2021
+                  </div>
+                </div>
+              </div>
+              <!-- data 3 -->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Hackathon 4.0</h3>
+                  <span class="qualification-subtitle">Tiket.com X Technoscape</span>
+                  <div class="qualification-calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    3 jul 2021 - 5 Jul 2021
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification-rounder"></span>
+                  <span class="qualification-line"></span>
+                </div>
+              </div>
+              <!-- data 4 -->
+              <div class="qualification-data">
+                <div></div>
+
+                <div>
+                  <span class="qualification-rounder"></span>
+                  <span class="qualification-line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification-title">Frontend Web Dev Bootcamp</h3>
+                  <span class="qualification-subtitle">Progate</span>
+                  <div class="qualification-calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    13 Sep 2021 - 3 Oct 2021
+                  </div>
+                </div>
+              </div>
+              <!-- data 5 -->
+              <div class="qualification-data">
+                <div>
+                  <h3 class="qualification-title">Frontend Developer</h3>
+                  <span class="qualification-subtitle">Jatis Mobile | PT. Informasi Teknologi Indonesia</span>
+                  <div class="qualification-calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2021 - 2022
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification-rounder"></span>
+                  <!-- <span class="qualification-line"></span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section" id="skills">
+        <span class="section-subtitle"> My abilities </span>
+        <h2 class="section-title">My Experience</h2>
+
+        <div class="skills-container container grid">
+          <div class="skills-content">
+            <h3 class="skills-title">Frontend</h3>
+
+            <div class="skills-box">
+              <div class="skills-group">
+                <div class="skills-data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">HTML</h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">CSS</h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">Javascript</h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">Bootstrap</h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-content">
+            <h3 class="skills-title">Backend</h3>
+
+            <div class="skills-box">
+              <div class="skills-group">
+                <div class="skills-data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">C/C++</h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">Java</h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">PHP (Laravel)</h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">Android Studio</h3>
+                    <span class="skills-level">Beginner</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">Ms SQL Server</h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-content">
+            <h3 class="skills-title">Others</h3>
+
+            <div class="skills-box">
+              <div class="skills-group">
+                <div class="skills-data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">Figma</h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">Canva</h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">Microsoft Word</h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills-data">
+                  <i class="bx bx-badge-check"></i>
+
+                  <div>
+                    <h3 class="skills-name">Microsoft Excel</h3>
+                    <span class="skills-level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section class="services section">
+        <span class="section-subtitle">My Services</span>
+        <h2 class="section-title">What I Offer</h2>
+
+        <div class="service-container container grid">
+          <div class="services-card">
+            <h3 class="services-title">
+              Product <br />
+              Designer
+            </h3>
+
+            <span class="services-button">See More<i class="bx bx-right-arrow-alt services-icon"></i></span>
+            <div class="services-modal">
+              <div class="modal-content">
+                <i class="bx bx-x modal-close"></i>
+                <h3 class="modal-title"></h3>
+                <p class="modal-desc"></p>
+
+                <ul class="modal-list">
+                  <li class="modal-item">
+                    <i class="bx bx-check modal-icon"></i>
+                    <p class="model-info"></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services-card">
+            <h3 class="services-title">
+              UI/UX <br />
+              Designer
+            </h3>
+
+            <span class="services-button">See More<i class="bx bx-right-arrow-alt services-icon"></i></span>
+            <div class="services-modal">
+              <div class="modal-content">
+                <i class="bx bx-x modal-close"></i>
+                <h3 class="modal-title"></h3>
+                <p class="modal-desc"></p>
+
+                <ul class="modal-list">
+                  <li class="modal-item">
+                    <i class="bx bx-check modal-icon"></i>
+                    <p class="model-info"></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="services-card">
+            <h3 class="services-title">
+              Visual <br />
+              Designer
+            </h3>
+
+            <span class="services-button">See More<i class="bx bx-right-arrow-alt services-icon"></i></span>
+            <div class="services-modal">
+              <div class="modal-content">
+                <i class="bx bx-x modal-close"></i>
+                <h3 class="modal-title"></h3>
+                <p class="modal-desc"></p>
+
+                <ul class="modal-list">
+                  <li class="modal-item">
+                    <i class="bx bx-check modal-icon"></i>
+                    <p class="model-info"></p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="work section" id="work">
+        <span class="section-subtitle">My Portofolio</span>
+        <h2 class="section-title">Recent Works</h2>
+
+        <div class="work-filters">
+          <span data-filter="all" class="work-item active-work">All</span>
+          <span data-filter=".web" class="work-item">Web</span>
+          <span data-filter=".design" class="work-item">Design</span>
+          <span data-filter=".android" class="work-item">Android</span>
+        </div>
+        <div class="work-container container grid">
+          <div class="work-card mix web">
+            <img src="./Screenshot (125).png" alt="" class="work-img" />
+            <h3 class="work-title">Kalkulator</h3>
+            <a href="https://eril19.github.io/Kalkulator/" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
+          </div>
+
+          <div class="work-card mix web">
+            <img src="./Screenshot (126).png" alt="" class="work-img" />
+            <h3 class="work-title">Frawlsalla</h3>
+            <a href="https://eril19.github.io/Frawl_Salla/" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
+          </div>
+
+          <div class="work-card mix design">
+            <img src="./Screenshot (127).png" alt="" class="work-img" />
+            <h3 class="work-title">PWNI</h3>
+            <a href="https://bit.ly/PrototypeInterfacePWNI" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
+          </div>
+
+          <div class="work-card mix android">
+            <img src="./Screenshot 2022-07-13 221641.png" alt="" class="work-img" />
+            <h3 class="work-title">EzyFoody</h3>
+            <a href="https://github.com/eril19/EzyFoody" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
+          </div>
+
+          <div class="work-card mix web">
+            <img src="./Screenshot (36).png" alt="" class="work-img" />
+            <h3 class="work-title">CookBook</h3>
+            <a href="https://eril19.github.io/CookBook/" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
+          </div>
+
+          <div class="work-card mix web">
+            <img src="./Screenshot (228).png" alt="" class="work-img" />
+            <h3 class="work-title">Horoskop</h3>
+            <a href="https://eril19.github.io/Horoskop/" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
+          </div>
+
+          <div class="work-card mix web">
+            <img src="./Screenshot (40).png" alt="" class="work-img" />
+            <h3 class="work-title">PizziPazza</h3>
+            <a href="https://eril19.github.io/PizziPazza/" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <span class="section-subtitle">Get in touch</span>
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-container grid container">
+          <div class="contact-content">
+            <h3 class="contact-title">Talk to me</h3>
+            <div class="contact-info">
+              <div class="contact-card">
+                <i class="bx bx-mail-send card-icon"></i>
+                <h3 class="card-title">Email</h3>
+                <span class="card-data">m.erilfario19@gmail.com</span>
+                <a href="mailto:m.erilfario19@gmail.com" class="contact-button"> Write me <i class="bx bx-right-arrow-alt contact-button-icon"></i> </a>
+              </div>
+            </div>
+            <div class="contact-info">
+              <div class="contact-card">
+                <i class="bx bxl-whatsapp card-icon"></i>
+                <h3 class="card-title">WhatsApp</h3>
+                <span class="card-data">+62 898 XXX XX92</span>
+                <a href="https://api.whatsapp.com/send?phone=08987147892&text=Hello! I got your number from Portfolio" class="contact-button"> Write me <i class="bx bx-right-arrow-alt contact-button-icon"></i> </a>
+              </div>
+            </div>
+            <div class="contact-info">
+              <div class="contact-card">
+                <i class="bx bx-current-location card-icon"></i>
+                <h3 class="card-title">Address</h3>
+                <span class="card-data">Jl. Cipinang Jaya DD no.21 A, Jakarta Timur</span>
+                <!-- <a href="" class="contact-button">
+                  <i class="bx bx-right-arrow-alt contact-button-icon"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-content">
+            <h3 class="contact-title">Write me a message</h3>
+
+            <form action="https://formsubmit.co/62c0e11e4534a7b5b7ed76c966cce075" method="post" class="contact-form">
+              <div class="form-div">
+                <label for="" class="form-tag">Full Name</label>
+                <input type="text" placeholder="Insert your name..." name="Name" class="form-input" id="" required/>
+              </div>
+              <div class="form-div">
+                <label for="" class="form-tag">Email</label>
+                <input type="email" placeholder="Insert your email" name="Email" class="form-input" id="" required/>
+              </div>
+              <div class="form-div">
+                <label for="" class="form-tag">Phone Number</label>
+                <input type="text" placeholder="Insert your phone number" name="Phone" class="form-input" id="" required/>
+              </div>
+              <div class="form-div form-area">
+                <label for="" class="form-tag">Message</label>
+                <textarea name="Message" placeholder="Write your message..." class="form-input" cols="30" rows="10"></textarea>
+              </div>
+
+              <button type="submit" class="button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-container containerrequired">
+          <h1 class="footer-title">Eril</h1>
+          <ul class="footer-list">
+            <li>
+              <a href="#about" class="footer-link">About</a>
+            </li>
+            <li>
+              <a href="#work" class="footer-link">Work</a>
+            </li>
+            <li>
+              <a href="#skills" class="footer-link">Skills</a>
+            </li>
+          </ul>
+
+          <ul class="footer-social">
+            <a href="www.instagram.com/erielfario_14" target="_blank" class="social-link">
+              <i class="bx bxl-instagram"></i>
+            </a>
+            <a href="www.twitter.com" target="_blank" class="social-link">
+              <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="www.facebook.com" target="_blank" class="social-link">
+              <i class="bx bxl-facebook"></i>
+            </a>
+          </ul>
+
+          <span class="footer-copy">
+            &#169Muhammad Eril Fario, all rights reserved
+          </span>
+        </div>
+      </footer>
+    </main>
+    <!-- SCROLLREVEAL -->
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <!-- or -->
+    <script src="./scrollreveal.min.js"></script>
+
+    <!-- MIXITUP FILTER (WORK SECTION) -->
+    <script src="./mixitup.min.js"></script>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
