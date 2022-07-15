@@ -1034,9 +1034,9 @@ body.light-theme {
     justify-content: center;
   }
 
-  /* .about-info {
-    justify-content: initial;
-  } */
+  .about-info {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   .about-box {
     text-align: center;
