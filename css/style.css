@@ -186,6 +186,7 @@ img {
   width: 90%;
   border-radius: 4rem;
   padding: 1rem 2.25rem;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
