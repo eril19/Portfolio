@@ -5,13 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio</title>
-    <link rel="stylesheet" href="./style.css" />
-     <!-- unicon -->
-     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    
+    <!-- unicon -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    
     <!-- boxicons -->
     <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    
+    <!-- LIGHTBOX JS -->
+    <link rel="stylesheet" href="./dist/css/lightbox.min.css">
+  
   </head>
   <body>
+    <!-- NAVBAR -->
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav-logo">Eril</a>
@@ -57,6 +64,7 @@
     </header>
 
     <main class="main">
+      <!-- HOME -->
       <section class="home section" id="home">
         <div class="home-container container grid">
           <div class="home-data">
@@ -97,11 +105,16 @@
         </div>
       </section>
 
+      <!-- ABOUT -->
       <section class="about section" id="about">
         <span class="section-subtitle">My Introduction</span>
         <h2 class="section-title">About Me</h2>
         <div class="about-container container grid">
-          <img src="./WhatsApp Image 2022-07-08 at 17.05.09.jpeg" alt="" class="about-img" />
+
+          <a data-lightbox = "picture" href="./assets/images/WhatsApp Image 2022-07-08 at 17.05.09.jpeg" class="about-img-a">
+            <img src="./assets/images/WhatsApp Image 2022-07-08 at 17.05.09.jpeg" alt="" class="about-img" />
+          </a>
+
           <div class="about-data">
 
             <!-- <div class="about-info">
@@ -125,16 +138,17 @@
             </div> -->
 
             <p class="about-desc">
-              I am currently an undergraduate student at Bina Nusantara University majoring in Computer Science and have chosen Mobile Programming and Software Engineering as my minor. I am eager to learn something new and gain experience
-              in order to broaden and improve my knowledge. I want to be a developer whose skills extend beyond programming in the hope of helping, contributing, and being a useful member of society.
+              I am freshly graduated and looking for a job as a front-end developer or web developer. I have a GPA of 3.79 and about a year of work 
+              experience. familiar with JavaScript, the Laravel Framework, HTML, and CSS. I am a quick learner and can adjust to other abilities 
+              needed in the IT field.
             </p>
 
             <div class="about-buttons">
-              <a download="" href="./CV.pdf" class="button"> Download CV </a>
-              <a download="" href="./CV English.pdf" class="button"> Download CV (English)</a>
-              <a download="" href="./TranskripNilai.pdf" class="button">
+              <a download="" href="./assets/files/CV.pdf" class="button"> Download CV </a>
+              <!-- <a download="" href="./CV English.pdf" class="button"> Download CV (English)</a> -->
+              <a download="" href="./assets/files/TranskripNilai.pdf" class="button">
                   Transcript
-                </a>
+              </a>
               <a href="#contact" class="button">Contact Me</a>
             </div>
 
@@ -566,43 +580,43 @@
         </div>
         <div class="work-container container grid">
           <div class="work-card mix web">
-            <img src="./Screenshot (125).png" alt="" class="work-img" />
+            <img src="./assets/images/Screenshot (125).png" alt="" class="work-img" />
             <h3 class="work-title">Kalkulator</h3>
             <a href="https://eril19.github.io/Kalkulator/" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
           </div>
 
           <div class="work-card mix web">
-            <img src="./Screenshot (126).png" alt="" class="work-img" />
+            <img src="./assets/images/Screenshot (126).png" alt="" class="work-img" />
             <h3 class="work-title">Frawlsalla</h3>
             <a href="https://eril19.github.io/Frawl_Salla/" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
           </div>
 
           <div class="work-card mix design">
-            <img src="./Screenshot (127).png" alt="" class="work-img" />
+            <img src="./assets/images/Screenshot (127).png" alt="" class="work-img" />
             <h3 class="work-title">PWNI</h3>
             <a href="https://bit.ly/PrototypeInterfacePWNI" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
           </div>
 
           <div class="work-card mix android">
-            <img src="./Screenshot (269).png" alt="" class="work-img" />
+            <img src="./assets/images/Screenshot (269).png" alt="" class="work-img" />
             <h3 class="work-title">EzyFoody</h3>
             <a href="https://github.com/eril19/EzyFoody" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
           </div>
 
           <div class="work-card mix web">
-            <img src="./Screenshot (36).png" alt="" class="work-img" />
+            <img src="./assets/images/Screenshot (36).png" alt="" class="work-img" />
             <h3 class="work-title">CookBook</h3>
             <a href="https://eril19.github.io/CookBook/" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
           </div>
 
           <div class="work-card mix web">
-            <img src="./Screenshot (228).png" alt="" class="work-img" />
+            <img src="./assets/images/Screenshot (228).png" alt="" class="work-img" />
             <h3 class="work-title">Horoskop</h3>
             <a href="https://eril19.github.io/Horoskop/" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
           </div>
 
           <div class="work-card mix web">
-            <img src="./Screenshot (40).png" alt="" class="work-img" />
+            <img src="./assets/images/Screenshot (40).png" alt="" class="work-img" />
             <h3 class="work-title">PizziPazza</h3>
             <a href="https://eril19.github.io/PizziPazza/" class="work-button"> Demo <i class="bx bx-right-arrow-alt work-icon"></i> </a>
           </div>
@@ -704,14 +718,22 @@
         </div>
       </footer>
     </main>
+
+
+
+
+
     <!-- SCROLLREVEAL -->
     <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
     <!-- or -->
-    <script src="./scrollreveal.min.js"></script>
+    <script src="./js/scrollreveal.min.js"></script>
 
     <!-- MIXITUP FILTER (WORK SECTION) -->
-    <script src="./mixitup.min.js"></script>
+    <script src="./js/mixitup.min.js"></script>
 
-    <script src="./main.js"></script>
+    <!-- LIGHTBOX JS -->
+    <script src="./dist/js/lightbox-plus-jquery.min.js"></script>
+    <script src="./dist/css/lightbox.min.css"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
